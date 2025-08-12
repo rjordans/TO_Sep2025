@@ -1,7 +1,7 @@
 {
   "ProjectName": "FMD_QNC_template_project",
-  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
-  "Technology": "SG13G2",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
   "Design": {
     "DesignName": "FMD_QNC_template_design",
     "FinalGdsName": "FMD_QNC_final_layout.gds",
