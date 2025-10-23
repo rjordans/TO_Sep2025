@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
@@ -14,7 +14,7 @@ N 240 -200 240 -130 {lab=VSS}
 N 240 -260 240 -230 {lab=Y}
 N 240 -260 330 -260 {lab=Y}
 N 240 -290 240 -260 {lab=Y}
-N 240 -380 240 -320 {lab=VDD}
+N 240 -380 240 -320 {lab=VP}
 C {sg13g2_pr/sg13_hv_nmos.sym} 220 -200 0 0 {name=M1
 l=0.45u
 w=0.3u
@@ -33,7 +33,7 @@ spiceprefix=X
 }
 C {opin.sym} 330 -260 0 0 {name=p2 lab=Y}
 C {ipin.sym} 160 -260 0 0 {name=p4 lab=A}
-C {lab_pin.sym} 240 -380 0 0 {name=p27 lab=VDD
+C {lab_pin.sym} 240 -380 0 0 {name=p27 lab=VP
 }
-C {lab_pin.sym} 240 -130 0 0 {name=p1 lab=VSS
+C {lab_pin.sym} 240 -130 0 0 {name=p1 lab=VN
 }

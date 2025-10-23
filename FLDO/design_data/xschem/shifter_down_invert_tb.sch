@@ -1,4 +1,4 @@
-v {xschem version=3.4.8RC file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
@@ -50,7 +50,7 @@ node=i(vdd)}
 N 190 -150 190 -130 {lab=in}
 N 190 -150 270 -150 {lab=in}
 N 350 -150 380 -150 {lab=out}
-C {shifter_down_invert.sym} 300 -150 0 0 {name=x1 VDD=VDD VSS=0}
+C {shifter_down_invert.sym} 300 -150 0 0 {name=x1 VP=VDD VN=0}
 C {vsource.sym} 90 -100 0 0 {name=Vdd value=1.2 savecurrent=false}
 C {lab_pin.sym} 90 -70 0 0 {name=p17 sig_type=std_logic lab=0}
 C {lab_pin.sym} 90 -130 0 0 {name=p18 sig_type=std_logic lab=VDD}
